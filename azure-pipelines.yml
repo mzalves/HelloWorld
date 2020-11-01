@@ -32,3 +32,4 @@ steps:
     Dockerfile: '**/Dockerfile'
     tags: |
       latest
+      $(Build.BuildNumber)
